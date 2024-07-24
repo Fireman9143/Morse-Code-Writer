@@ -11,6 +11,5 @@ class Settings:
         self.screen_width = 1200
         self.screen_height = 800
         self.bg_color = (0, 0, 0)
-        self.text_font = pygame.font.Font(None, 120)
-        self.morse_font = pygame.font.Font(None, 100)
-        
+        self.text_font = pygame.font.SysFont("notomono", 180)
+        self.morse_font = pygame.font.SysFont("freeserif", 100)
